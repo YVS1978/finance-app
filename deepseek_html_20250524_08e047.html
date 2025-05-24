@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Учет финансов</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <h1>💰 Мои финансы</h1>
+        <div class="balance">Баланс: <span id="balance">0 ₽</span></div>
+        
+        <div class="buttons">
+            <button onclick="addTransaction('income')">
+                <i class="material-icons">attach_money</i> Доход
+            </button>
+            <button onclick="addTransaction('expense')">
+                <i class="material-icons">shopping_cart</i> Расход
+            </button>
+        </div>
+
+        <div class="history">
+            <h2>История операций</h2>
+            <ul id="transactions"></ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

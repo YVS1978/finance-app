@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.app {
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.balance {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background: #f0f8ff;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:nth-child(1) {
+    background: #4CAF50;
+    color: white;
+}
+
+button:nth-child(2) {
+    background: #f44336;
+    color: white;
+}
+
+.material-icons {
+    margin-right: 5px;
+}
+
+.history h2 {
+    font-size: 1em;
+    color: #555;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+ul#transactions {
+    list-style: none;
+    padding: 0;
+}
+
+ul#transactions li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
